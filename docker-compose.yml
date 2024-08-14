@@ -1,0 +1,19 @@
+version: '1.0.0'
+services:
+    nav:
+        container_name: nav
+        build:
+            context: ./
+            dockerfile: ./Dockerfile
+        environment:
+        # 时区
+        - TZ=Asia/Shanghai
+        # 数据库配置
+        - DATABASE_URI=sqlite:///app/data/data.db
+        # - DATABASE_URI=mysql://myuser:mypass@db.host:3306/somedb
+        # 配置文件
+        ports:
+            - "9000:80"
+        volumes:
+          - ./data:/app/data
+        restart: unless-stopped

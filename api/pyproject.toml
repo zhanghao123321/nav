@@ -1,0 +1,26 @@
+[project]
+#name = "api"
+#version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    { name = "moxiaoying", email = "768091671@qq.com" },
+]
+dependencies = [
+    "fastapi-tortoise-crud>=0.1.20",
+    "loguru>=0.7.0",
+    "httpx>=0.24.1",
+    "BeautifulSoup4>=4.12.2",
+    "fastapi-jwt>=0.1.12",
+    "passlib>=1.7.4",
+    "bcrypt>=4.0.1",
+    "aiosqlite",
+    "uvicorn",
+    "python-dotenv",
+    "fastapi-cache2>=0.2.1",
+    "lxml>=5.1.0",
+    "python-multipart>=0.0.9",
+]
+requires-python = ">=3.10"
+license = { text = "MIT" }
+readme = "README.md"
+
