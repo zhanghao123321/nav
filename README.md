@@ -1,6 +1,7 @@
 ```shell
 # cp /nav/api/data/data.db 文件到/data/nav/目录下
 mkdir -p /data/nav/
+git clone https://ghproxy.cc/https://github.com/zhanghao123321/nav.git
 cp nav/api/data/data.db /data/nav/
 
 # Docker运行：
