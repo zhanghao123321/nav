@@ -4,11 +4,11 @@ import (
 	"log"
 	"net/http"
 	"time"
-	"nav/backend/config"
-	"nav/backend/database"
-	"nav/backend/models"
-	"nav/backend/routes"
-	"nav/backend/utils"
+	"znav/backend/config"
+	"znav/backend/database"
+	"znav/backend/models"
+	"znav/backend/routes"
+	"znav/backend/utils"
 )
 
 func init() {
